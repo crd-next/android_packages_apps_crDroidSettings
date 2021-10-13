@@ -137,7 +137,7 @@ public class crDroidSettingsLayout extends SettingsPreferenceFragment {
 /*
             Recents.reset(rContext);
 */
-            Buttons.reset(rContext);
+            /*Buttons.reset(rContext);
             LockScreen.reset(rContext);
             Miscellaneous.reset(rContext);
             Navigation.reset(rContext);
@@ -145,7 +145,7 @@ public class crDroidSettingsLayout extends SettingsPreferenceFragment {
             QuickSettings.reset(rContext);
             Sound.reset(rContext);
             StatusBar.reset(rContext);
-            UserInterface.reset(rContext);
+            UserInterface.reset(rContext);*/
             finish();
             startActivity(getIntent());
             return null;
@@ -173,7 +173,7 @@ public class crDroidSettingsLayout extends SettingsPreferenceFragment {
 /*
             frags[3] = new Recents();
 */
-            frags[0] = new StatusBar();
+            /*frags[0] = new StatusBar();
             frags[1] = new QuickSettings();
             frags[2] = new LockScreen();
             frags[3] = new Navigation();
@@ -181,7 +181,7 @@ public class crDroidSettingsLayout extends SettingsPreferenceFragment {
             frags[5] = new UserInterface();
             frags[6] = new Notifications();
             frags[7] = new Sound();
-            frags[8] = new Miscellaneous();
+            frags[8] = new Miscellaneous();*/
             frags[9] = new About();
         }
 
@@ -207,7 +207,7 @@ public class crDroidSettingsLayout extends SettingsPreferenceFragment {
 /*
             getString(R.string.recents_title),
 */
-            getString(R.string.statusbar_title),
+            /*getString(R.string.statusbar_title),
             getString(R.string.quicksettings_title),
             getString(R.string.lockscreen_title),
             getString(R.string.navbar_title),
@@ -215,7 +215,7 @@ public class crDroidSettingsLayout extends SettingsPreferenceFragment {
             getString(R.string.ui_title),
             getString(R.string.notifications_title),
             getString(R.string.sound_title),
-            getString(R.string.misc_title),
+            getString(R.string.misc_title),*/
             getString(R.string.about_crdroid)
         };
         return titleString;
